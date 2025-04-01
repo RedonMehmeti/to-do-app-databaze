@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+
+        <div class="form-container">
+            <input type="text" id="name" placeholder="Enter task name" required>
+            <input type="text" id="kategoria" placeholder="Category" required>
+            <input type="text" id="proriteti" placeholder="Priority" required>
+            <input type="text" id="koha" placeholder="Time" required>
+            <button id="addTodo">Add Todo</button>
+        </div>
+
+        <div class="todo-list">
+            <h2>Your Todos</h2>
+            <ul id="todos"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
